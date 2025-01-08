@@ -1,0 +1,8 @@
+node{
+    stage('w/o Docker'){
+        sh '''
+        echo "Hello-World"
+        '''
+    }
+    
+}
